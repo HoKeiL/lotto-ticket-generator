@@ -30,11 +30,6 @@ function isUnique(array: number[], numberToCheck: number): boolean {
     return !array.includes(numberToCheck);
 }
 
-console.log(generateLottoNumbers());
-console.log(generateLottoNumbers());
-console.log(generateLottoNumbers());
-console.log(generateLottoNumbers());
-
 export {
     generateLottoNumbers,
     getRandomIntInclusive,
